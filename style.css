@@ -16,16 +16,19 @@ img{
     flex-wrap: wrap;
     border: 2px solid black;
     margin-top: 40px;
-    align-content: flex-start;
 }
 #grid .cells{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid blue;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
 }
 .clicca{
     background-color: brown;
     
 }
-/* guarda minuto 1:28 */
