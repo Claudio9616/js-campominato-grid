@@ -1,3 +1,19 @@
 body{
-    background-color: brown;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 2rem;
+}
+img{
+    width: 300px;
+}
+.my-container{
+    margin: auto;
+    width: 50%;
+}
+#grid{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 40px;
 }
