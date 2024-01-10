@@ -16,4 +16,16 @@ img{
     flex-wrap: wrap;
     border: 2px solid black;
     margin-top: 40px;
+    align-content: flex-start;
 }
+#grid .cells{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid blue;
+    cursor: pointer;
+}
+.clicca{
+    background-color: brown;
+    
+}
+/* guarda minuto 1:28 */
